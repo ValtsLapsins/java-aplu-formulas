@@ -1,0 +1,21 @@
+import java.util.Scanner;
+import java.lang.Math; 
+ public class HelloWorld
+ {
+  public static void main(String args[])
+  {
+    
+    System.out.println("ievadiet radiusu.")
+    Scanner sc = new Scanner(System.in);
+    int i = sc.nextInt(), a = 2;
+   
+    System.out.println("Jus ievadijat radiusu: "+i+".");
+    System.out.println("Diametrs: "+(a * i)+".");
+    System.out.println("Laukums: "+(i * i * Math.PI)+".");
+    System.out.println("Rinka linijas apkartmers: "+(i * a *  Math.PI)+".");
+    System.out.println("Pusrinka laukums: "+(i * Math.PI)+".");
+    System.out.println("Pusrinka apkartmers: "+(i * i * Math.PI / a)+".");
+    
+
+  }
+ }  
